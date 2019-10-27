@@ -1,0 +1,132 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;;
+}
+body{
+    background: url("../images/pozadina.jpg");
+    
+}
+#conteiner{
+    width: 90%;
+    margin: 0 auto;
+}
+#header img{
+    width: 150px;
+    height: 150px;
+    
+}
+h1{
+    
+    font-size: 50px;
+    
+}
+#header{
+
+    padding: 10px;
+    
+}
+#header h1{
+    color: yellow;
+    display: inline;
+    vertical-align: top;
+}
+#nav{
+    margin-left: 150px;
+
+}
+ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+ul li{
+    float: left;
+    width: 17%;
+    text-align: center;
+    font-size: 35px;
+    height: 40px;
+    background-color: yellow;
+}
+ul li a{
+    display: block;
+    text-decoration: none;
+    border: 1px solid blue;
+    color: blue;
+}
+ul li a:hover{
+    background-color: rgb(23, 72, 100);
+    color: yellow;
+}
+
+#leviSidebar
+{
+    width: 15%;
+    display: inline-block;
+    vertical-align: top;    
+}
+#leviSidebar h1{
+    font-size: 30px;
+}
+#centralniDeo
+{
+    width: 65%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 10px 10px 10px;
+    padding: 5px;
+    
+}
+#centralniDeo img{
+    width: 100%;
+}
+#centralniDeo .proizvod
+{
+    width: 30%;
+    display: inline-block;
+    background-color: orange;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 15px;
+    
+}
+#centralniDeo p
+{
+    font-size: 20px;
+}
+#desniSidebar
+{
+    width: 16%;
+    display: inline-block;
+}
+#desniSidebar .vest
+{
+    padding: 5px;
+    margin-top: 5px;
+    width: 100%;
+    background-color: rgb(13, 65, 114);
+}
+#desniSidebar .vest img
+{
+    width: 100%;
+}
+#desniSidebar .vest h1
+{
+    font-size: 28px;
+}
+#desniSidebar .vest h2
+{
+    font-size: 20px;
+}
+#footer
+{
+    text-align: center;
+    width: 100%;
+    height: 200px;
+    background-color: yellow;
+    padding: 5px;
+}
+.dugme
+{
+    width: 100px;
+    height: 30px;
+}
